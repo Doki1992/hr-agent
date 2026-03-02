@@ -19,6 +19,11 @@ GitHub repository: https://github.com/Doki1992/hr-agent.git
 git clone https://github.com/Doki1992/hr-agent.git
 cd hr-agent
 ```
+
+### 1.2 Create the virtual enn
+```bash
+uv venv
+```
 ### 1.1 Run the virtual env
 ```bash
 .\.venv\Scripts\activate
