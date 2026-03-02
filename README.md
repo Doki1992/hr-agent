@@ -20,7 +20,7 @@ git clone https://github.com/Doki1992/hr-agent.git
 cd hr-agent
 ```
 
-### 1.2 Create the virtual enn
+### 1.2 Create the virtual env
 ```bash
 uv venv
 ```
