@@ -14,6 +14,10 @@ const role = {
       const newContent = content.replace(/\n\n/g, '<br/><br/>');
       return <XMarkdown content={newContent} />;
     },
+    className: "ai",
+    style: {
+      backGround: "#7d6ef2"
+    }
   },
   user: {
     placement: 'start',
@@ -90,16 +94,6 @@ const App = () => {
   console.log(messages);
   return (
     <Flex vertical gap="middle">      
-      {/* Status and control area: display current status and provide action buttons */}
-      <Flex vertical gap="middle">
-        <div>          
-          {isRequesting
-            ? 'Requesting'
-            : messages.length === 0
-              ? 'No messages'
-              : 'Completed' }
-        </div>
-      </Flex>
       {/* Message list: display all chat messages, including historical messages */}
       <Bubble.List
         style={{ height: 500 }}

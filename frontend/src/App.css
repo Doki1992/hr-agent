@@ -26,4 +26,30 @@ body {
 }
 body {
   background-image: none;
+  background-color: #15191c;
+  color: white;
+}
+* {
+  color: white !important;
+}
+
+.ant-sender {
+  border: 1px solid white !important;
+  color: white !important;
+  width: 80% !important;
+  margin-left: 10%;
+}
+.ant-bubble-list {
+  width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.ai .ant-bubble-body {
+  background: #7d6ef2 !important;
+  border-radius: 40px !important;
+}
+
+.ant-bubble-body {
+  background: #313538 !important;
+  border-radius: 40px !important;
 }
