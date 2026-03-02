@@ -129,10 +129,10 @@ This document describes the current implementation of the AI agent system, based
 
 The architecture is visually summarized in two diagrams:
 
-![Application Diagram](diagram.png)
+![Application Diagram](../diagram.png)
 *Figure 1: Component relationships and data flow between frontend, backend, and agent.*
 
-![Sequence Diagram](seq.png)
+![Sequence Diagram](../seq.png)
 *Figure 2: Step‑by‑step interaction sequence from user input to agent response.*
 
 These diagrams are included in the project root and should be referenced for a visual understanding of the system.
