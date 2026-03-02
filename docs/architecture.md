@@ -122,6 +122,7 @@ This document describes the current implementation of the AI agent system, based
 5. **Single‑Language Support:** The system only supports English and Spanish; other languages are not handled.
 6. **No Authentication/Authorization:** The API does not verify the `employeeId` or protect against unauthorized access.
 7. **Scalability:** The SQLite checkpointer may become a bottleneck under high load; a more scalable storage backend would be needed.
+8. **Session and memory**: Session and memory history are not working as expected. The agent can create summaries of the interactions it has had with the user, but it cannot directly provide responses about past interactions—probably because of the guardrails in the prompt.  
 
 ---
 
